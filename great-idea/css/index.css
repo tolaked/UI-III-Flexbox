@@ -151,15 +151,20 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 header .header {
-  display: inline;
+  display: flex;
+  padding: 5px;
+}
+.fact {
   padding: 5px;
 }
 .header nav {
   display: flex;
   flex-direction: row;
   height: 60px;
-  margin-left: 85px;
+  /* margin-left: 85px; */
   align-items: center;
+  padding-left: 11%;
+  padding-right: 6%;
 }
 
 header nav a {
@@ -289,4 +294,89 @@ footer {
 }
 .text {
   margin-top: 25px;
+}
+
+/* SERVICES PAGE STYLE */
+.services {
+  padding-left: 9%;
+  padding-right: 6%;
+  padding-top: 2%;
+}
+.services-header-img {
+  padding-left: 11%;
+  padding-right: 6%;
+  text-align: center;
+  width: 95%;
+  padding-top: 1%;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-left: 7%;
+  padding-right: 6%;
+  padding-top: 25px;
+}
+
+.services-container > div {
+  border: 1px solid grey;
+  flex-direction: row;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 4%;
+  background: gainsboro;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.more {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 20px;
+  background: white;
+}
+.fact {
+  display: flex;
+  padding: 2% 8%;
+  margin-bottom: 50px;
+}
+.last-section {
+  display: flex;
+  flex-direction: column;
+}
+.services-info-img {
+  width: 80%;
+}
+.last-section {
+  width: 90%;
+}
+.last-text {
+  /* padding-left: -30px; */
+  width: 90%;
+  line-height: 23px;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 13px;
+}
+ul li {
+  list-style-type: square;
+  padding-top: 14px;
+}
+.new-footer {
+  height: 40px;
+  text-align: center;
+}
+.newline {
+  height: 4px;
+  background: black;
+  width: 85%;
+  margin-left: 9%;
+  margin-top: 20px;
 }
